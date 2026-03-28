@@ -27,29 +27,29 @@ export default {
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: 'El desarrollo personal se entiende como:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Un proceso de aprendizaje exclusivamente académico.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Un proceso continuo de crecimiento que permite fortalecer habilidades y conocimientos personales.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Una actividad enfocada únicamente en el trabajo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Un conjunto de actividades recreativas.',
               esCorrecta: false,
             },
           ],
@@ -59,28 +59,31 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            '¿Cuál es la función principal del autoconocimiento en el desarrollo personal?',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Reconocer las propias emociones, pensamientos y comportamientos para actuar de forma consciente.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Evitar la interacción social para proteger la estabilidad emocional.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Ignorar las propias debilidades para mantener la confianza personal.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Depender de otras personas.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +92,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto:
+            'Seleccione la afirmación que describe correctamente una creencia limitante:',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Impulsar el crecimiento personal.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Fortalecer la confianza.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Generar barreras que impiden el desarrollo personal.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Promover la innovación.',
               esCorrecta: false,
             },
           ],
@@ -119,29 +123,29 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: 'La inteligencia emocional se refiere a la capacidad de:',
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Alcanzar un alto coeficiente intelectual.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Comprender y gestionar las emociones propias y de los demás.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Controlar las emociones de las demás personas.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Evitar experimentar emociones negativas.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +154,29 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            '¿Cuál de los siguientes es un componente de la inteligencia emocional?',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'La empatía.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'La capacidad de memorización.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'El pensamiento lógico-analítico.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'El coeficiente intelectual.',
               esCorrecta: false,
             },
           ],
@@ -180,29 +185,28 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'La gestión de emociones consiste en:',
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Ignorar los sentimientos.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Controlar y regular las emociones adecuadamente.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Evitar expresar emociones.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Eliminar las emociones negativas.',
               esCorrecta: false,
             },
           ],
@@ -212,29 +216,33 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            'Identifique la afirmación que describe correctamente la comunicación humana:',
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Un proceso que se limita al intercambio verbal de palabras.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Un intercambio restringido a contextos formales y laborales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Una transmisión unidireccional de mensajes entre emisor y receptor.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto:
+                'El intercambio de información, ideas y emociones entre personas, a través del lenguaje verbal y no verbal.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -242,29 +250,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: '¿A qué hace referencia la comunicación interpersonal?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'La comunicación con máquinas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'La comunicación interna de una empresa.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'La comunicación entre dos o más personas.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'La comunicación digital.',
               esCorrecta: false,
             },
           ],
@@ -273,20 +280,31 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto: 'Un acto lingüístico es:',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Una acción que se realiza a través del lenguaje.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto:
+                'Una regla que organiza las palabras dentro de una oración.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Una forma de comunicación exclusivamente no verbal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Un medio para transmitir información únicamente por escrito.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -294,19 +312,28 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'Identifique la afirmación correcta sobre el lenguaje verbal:',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Utilizar gestos únicamente',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Utilizar palabras habladas o escritas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Utilizar señales visuales',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Utilizar sonidos naturales',
               esCorrecta: false,
             },
           ],
@@ -316,18 +343,28 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            '¿Cuál de los siguientes elementos corresponde al lenguaje no verbal?',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Las palabras escritas.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Los textos académicos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Las ecuaciones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Los gestos, posturas y expresiones faciales.',
               esCorrecta: true,
             },
           ],
@@ -336,19 +373,28 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: 'La comunicación asertiva permite:',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Imponer las ideas propias.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Expresar ideas de forma clara y respetuosa.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Evitar la comunicación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Ignorar a los demás.',
               esCorrecta: false,
             },
           ],
@@ -358,18 +404,28 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen1.png'),
+            'Seleccione la afirmación que describe una característica de la comunicación asertiva:',
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'La agresividad.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'La imposición.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El respeto por las opiniones de los demás.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'La indiferencia.',
               esCorrecta: false,
             },
           ],
@@ -379,19 +435,32 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+            '¿Cuál de los siguientes factores puede convertirse en una barrera de la comunicación?',
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'La escucha activa y la disposición para comprender al interlocutor.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'El ruido o la falta de atención.',
               esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto:
+                'El respeto mutuo entre las personas durante la conversación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'La empatía y la capacidad de reconocer las emociones ajenas.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -400,18 +469,185 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+            'Las estrategias para mejorar la comunicación interpersonal buscan:',
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Generar conflictos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Fortalecer la interacción entre las personas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Evitar el diálogo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Reducir la participación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            'Identifique la afirmación que define correctamente las relaciones interpersonales:',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Los vínculos establecidos exclusivamente en el entorno familiar.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'La comunicación a través de medios digitales y redes sociales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Los lazos afectivos formados únicamente en contextos laborales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Las interacciones que se establecen entre las personas en distintos contextos de la vida cotidiana.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: '¿En qué consiste la empatía?',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Comprender las emociones de otras personas.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Evitar el contacto social.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ignorar los sentimientos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Imponer ideas.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto: 'La resolución de conflictos implica:',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ignorar el problema.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Buscar soluciones mediante el diálogo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Evitar la comunicación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Imponer decisiones.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            'Seleccione la afirmación que corresponde al trabajo colaborativo:',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Trabajar de forma individual.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Evitar el trabajo en grupo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Competir constantemente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Cooperar con otras personas para alcanzar objetivos comunes.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto: '¿En qué principios se fundamenta una convivencia positiva?',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El respeto y la cooperación entre las personas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'La imposición de ideas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El aislamiento social.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La falta de comunicación.',
               esCorrecta: false,
             },
           ],
