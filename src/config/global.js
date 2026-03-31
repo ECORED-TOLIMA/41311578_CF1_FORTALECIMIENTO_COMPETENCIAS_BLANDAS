@@ -222,52 +222,52 @@ export default {
   ],
   glosario: [
     {
-      termino: '<strong>Desarrollo personal:</strong>',
+      termino: '<strong>Desarrollo personal</strong>',
       significado:
         'proceso continuo mediante el cual una persona fortalece sus habilidades, conocimientos y actitudes con el fin de mejorar su bienestar, su desempeño y su crecimiento en diferentes ámbitos de la vida.',
     },
     {
-      termino: '<strong>Autoconocimiento:</strong>',
+      termino: '<strong>Autoconocimiento</strong>',
       significado:
         'capacidad de una persona para comprender sus emociones, pensamientos, valores y comportamientos, lo que le permite tomar decisiones más conscientes y mejorar su interacción con los demás.',
     },
     {
-      termino: '<strong>Inteligencia emocional:</strong>',
+      termino: '<strong>Inteligencia emocional</strong>',
       significado:
         'habilidad para reconocer, comprender y gestionar las propias emociones, así como para identificar y comprender las emociones de otras personas.',
     },
     {
-      termino: '<strong>Gestión emocional:</strong>',
+      termino: '<strong>Gestión emocional</strong>',
       significado:
         'proceso mediante el cual una persona regula sus emociones de forma adecuada para responder de manera equilibrada ante diferentes situaciones.',
     },
     {
-      termino: '<strong>Comunicación:</strong>',
+      termino: '<strong>Comunicación</strong>',
       significado:
         'proceso mediante el cual las personas intercambian información, ideas, sentimientos y significados a través del lenguaje verbal y no verbal.',
     },
     {
-      termino: '<strong>Comunicación asertiva:</strong>',
+      termino: '<strong>Comunicación asertiva</strong>',
       significado:
         'forma de comunicación que permite expresar ideas, opiniones y emociones de manera clara, respetuosa y honesta, sin afectar los derechos de los demás.',
     },
     {
-      termino: '<strong>Lenguaje verbal:</strong>',
+      termino: '<strong>Lenguaje verbal</strong>',
       significado:
         'tipo de comunicación que utiliza palabras, de forma oral o escrita, para transmitir información o expresar pensamientos.',
     },
     {
-      termino: '<strong>Lenguaje no verbal:</strong>',
+      termino: '<strong>Lenguaje no verbal</strong>',
       significado:
         'forma de comunicación que se expresa a través de gestos, posturas, expresiones faciales, contacto visual y tono de voz, complementando el mensaje verbal.',
     },
     {
-      termino: '<strong>Empatía:</strong>',
+      termino: '<strong>Empatía</strong>',
       significado:
         'capacidad de comprender y reconocer las emociones, pensamientos o situaciones que experimentan otras personas.',
     },
     {
-      termino: '<strong>Relaciones interpersonales:</strong>',
+      termino: '<strong>Relaciones interpersonales</strong>',
       significado:
         'interacciones que se establecen entre dos o más personas y que influyen en la convivencia, la cooperación y el desarrollo social.',
     },
